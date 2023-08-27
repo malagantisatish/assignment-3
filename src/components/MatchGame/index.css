@@ -1,0 +1,72 @@
+.match-game-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 150vh;
+}
+
+.tabs-container {
+  display: flex;
+  list-style: none;
+}
+
+.thumbnail-container {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+}
+
+.match-image {
+  height: 400px;
+  margin: 10px;
+}
+
+.finished-match-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  height: 98vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.trophy-image {
+  height: 200px;
+  margin-top: 50px;
+}
+
+.score {
+  color: white;
+  font-size: 30px;
+}
+
+.play-again-button {
+  height: 70px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  background-color: #cf60c8;
+  border-width: 0px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.reset-image {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.score-board {
+  height: 40%;
+  width: 60%;
+}

@@ -1,0 +1,17 @@
+.tabs-names {
+  color: white;
+  padding: 10px;
+  font-size: 26px;
+}
+
+.btn {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.selected-tab {
+  color: #fec653;
+  text-decoration: underline;
+  padding: 10px;
+  font-size: 26px;
+}
